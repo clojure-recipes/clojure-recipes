@@ -10,7 +10,8 @@ This repository contains the code samples from the book Clojure Recipes.
 
 [Chapter 4 Creating a REST Server with Liberator](https://github.com/juliangamble/clojure-recipes/tree/master/ch-04-rest-server-liberator)
 
-Chapter 5 A REST Client in ClojureScript  
+[Chapter 5 A REST Client in ClojureScript](https://github.com/juliangamble/clojure-recipes/tree/master/ch-05-rest-client-clojurescript)
+
 Chapter 6 A Simple JSON Server  
 Chapter 7 A Simple Server using the Pedestal Framework  
 Chapter 8 A Stock Ticker on the Pedestal Framework Server  
