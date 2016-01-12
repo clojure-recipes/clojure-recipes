@@ -4,7 +4,8 @@ This repository contains the code samples from the book Clojure Recipes.
 
 [Chapter 1 Starting Your Project with Leiningen](https://github.com/juliangamble/clojure-recipes/tree/master/ch-01-leiningen)
 
-Chapter 2 Packaging Clojure for a J2EE Environment  
+[Chapter 2 Packaging Clojure for a J2EE Environment](https://github.com/juliangamble/clojure-recipes/tree/master/ch-02-packaging-J2EE)
+
 Chapter 3 Creating a REST Server in Compojure  
 Chapter 4 Creating a REST Server with Liberator  
 Chapter 5 A REST Client in ClojureScript  
