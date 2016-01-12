@@ -6,7 +6,8 @@ This repository contains the code samples from the book Clojure Recipes.
 
 [Chapter 2 Packaging Clojure for a J2EE Environment](https://github.com/juliangamble/clojure-recipes/tree/master/ch-02-packaging-J2EE)
 
-Chapter 3 Creating a REST Server in Compojure  
+[Chapter 3 Creating a REST Server in Compojure](https://github.com/juliangamble/clojure-recipes/tree/master/ch-03-rest-server-compojure)
+
 Chapter 4 Creating a REST Server with Liberator  
 Chapter 5 A REST Client in ClojureScript  
 Chapter 6 A Simple JSON Server  
