@@ -8,7 +8,8 @@ This repository contains the code samples from the book Clojure Recipes.
 
 [Chapter 3 Creating a REST Server in Compojure](https://github.com/juliangamble/clojure-recipes/tree/master/ch-03-rest-server-compojure)
 
-Chapter 4 Creating a REST Server with Liberator  
+[Chapter 4 Creating a REST Server with Liberator](https://github.com/juliangamble/clojure-recipes/tree/master/ch-04-rest-server-liberator)
+
 Chapter 5 A REST Client in ClojureScript  
 Chapter 6 A Simple JSON Server  
 Chapter 7 A Simple Server using the Pedestal Framework  
