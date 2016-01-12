@@ -1,4 +1,4 @@
-**[Clojure Recipes](https://github.com/juliangamble/clojure-recipes) - Chapter 2 - Packaging Clojure for a J2EE Environment**
+**[Clojure Recipes](https://github.com/juliangamble/clojure-recipes) - Chapter 2 - Creating a REST Server with Liberator**
 
 This is the code for Chapter 4 of Clojure Recipes. 
 
