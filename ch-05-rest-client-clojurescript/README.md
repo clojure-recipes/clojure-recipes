@@ -1,5 +1,4 @@
-**[Clojure Recipes](https://github.com/juliangamble/clojure-recipes) - Chapter 5 - A REST Client in
-ClojureScript**
+**[Clojure Recipes](https://github.com/juliangamble/clojure-recipes) - Chapter 5 - A REST Client in ClojureScript**
 
 This is the code for Chapter 5 of Clojure Recipes. 
 
