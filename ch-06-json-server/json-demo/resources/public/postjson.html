@@ -1,0 +1,52 @@
+<html>
+<head>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+  <form action="/a" id="jsonForm">
+   <input type="submit" value="Submit a JSON post" />
+  </form>
+  <!-- the result of the json test will be rendered inside this div -->
+  <div id="result"></div>
+ 
+<script>
+/* attach a submit handler to the form */
+$("#jsonForm").submit(function(event) {
+ 
+  /* stop form from submitting normally */
+  event.preventDefault();
+
+  var book = {
+	"Title" : "The Adventures of Tom Sawyer",
+	"Author" : "Mark Twain",
+	"Year" : "1876"
+  };
+
+  var bookJSON = JSON.stringify(book)
+  
+  /* get some values from elements on the page: */
+  var $form = $( this ),
+  url = $form.attr( 'action' ); 
+ 
+  /* Send the data using post */
+  var postResult = $.post( url, { s: bookJSON } );
+ 
+  /* Put the results in a div */
+  postResult.done(function( data ) {
+    console.log(data);
+    var result = "";
+    $(data).each(function(i,val){
+      $.each(val,function(k,v){
+        console.log(k+" : "+ v);
+        result += k + " : " + v + "<br>";
+      });
+    });
+    $( "#result" ).empty().append( result );
+  });
+});
+</script>
+ 
+</body>
+</html>
+
+
