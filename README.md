@@ -12,11 +12,16 @@ This repository contains the code samples from the book Clojure Recipes.
 
 [Chapter 5 A REST Client in ClojureScript](https://github.com/juliangamble/clojure-recipes/tree/master/ch-05-rest-client-clojurescript)
 
-Chapter 6 A Simple JSON Server  
-Chapter 7 A Simple Server using the Pedestal Framework  
-Chapter 8 A Stock Ticker on the Pedestal Framework Server  
-Chapter 9 Simplifying Logging with a Macro  
-Chapter 10 Extending the Compiler with a Macro  
+[Chapter 6 A Simple JSON Server](https://github.com/juliangamble/clojure-recipes/tree/master/ch-06-json-server)
+
+[Chapter 7 A Simple Server using the Pedestal Framework](https://github.com/juliangamble/clojure-recipes/tree/master/ch-07-pedestal-server)
+
+[Chapter 8 A Stock Ticker on the Pedestal Framework Server](https://github.com/juliangamble/clojure-recipes/tree/master/ch-08-pedestal-stock-ticker)
+
+[Chapter 9 Simplifying Logging with a Macro](https://github.com/juliangamble/clojure-recipes/tree/master/ch-09-macro-simplifying-logging)
+
+[Chapter 10 Extending the Compiler with a Macro](https://github.com/juliangamble/clojure-recipes/tree/master/ch-10-macro-extending-the-compiler)
+
 Chapter 11 Simplifying Datomic Syntax by Writing a DSL  
 Chapter 12 Reading the SASS DSL and Generating CSS with  Clojure Zippers  
 Chapter 13 Introduction to Cascalog  
