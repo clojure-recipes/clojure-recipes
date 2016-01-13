@@ -10,10 +10,10 @@
 (deftest home-page-test
   (is (=
        (:body (response-for service :get "/"))
-       "Hello World!"))
+       "<html> <head>\r  <title>Home page</title>\r</head>\r  <body>\r    <h1>This is my first Pedestal webapp</h1>\r  </body>\r</html>\r"))
   (is (=
        (:headers (response-for service :get "/"))
-       {"Content-Type" "text/html;charset=UTF-8"
+       {"Content-Type" "text/html"
         "Strict-Transport-Security" "max-age=31536000; includeSubdomains"
         "X-Frame-Options" "DENY"
         "X-Content-Type-Options" "nosniff"
@@ -23,7 +23,7 @@
 (deftest about-page-test
   (is (.contains
        (:body (response-for service :get "/about"))
-       "Clojure 1.6"))
+       "Clojure 1.7"))
   (is (=
        (:headers (response-for service :get "/about"))
        {"Content-Type" "text/html;charset=UTF-8"

@@ -19,7 +19,7 @@
 (defn index-page
   [request]
   (assoc-in (ring-resp/response (io/input-stream (io/file "resources/public/index.html")))
-            [:headers "Content-type"]
+            [:headers "Content-Type"]
             "text/html"))
 
 (defroutes routes

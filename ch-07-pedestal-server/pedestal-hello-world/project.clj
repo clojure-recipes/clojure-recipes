@@ -1,5 +1,5 @@
 (defproject pedestal-hello-world "0.0.1-SNAPSHOT"
-  :dependencies [[org.clojure/clojure "1.6.0"]
+  :dependencies [[org.clojure/clojure "1.7.0"]
                  [io.pedestal/pedestal.service "0.4.1"]
 
                  ;; Remove this line and uncomment one of the next lines to
