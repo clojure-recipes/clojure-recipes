@@ -1,0 +1,6 @@
+stock_symbol	price
+APPL	527.00
+MSFT	26.74
+YHOO	19.86
+FB	28.76
+AMZN	259.15
