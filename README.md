@@ -22,11 +22,16 @@ This repository contains the code samples from the book Clojure Recipes.
 
 [Chapter 10 Extending the Compiler with a Macro](https://github.com/juliangamble/clojure-recipes/tree/master/ch-10-macro-extending-the-compiler)
 
-Chapter 11 Simplifying Datomic Syntax by Writing a DSL  
-Chapter 12 Reading the SASS DSL and Generating CSS with  Clojure Zippers  
-Chapter 13 Introduction to Cascalog  
-Chapter 14 Running Cascalog in Hadoop  
-Chapter 15 Loading a data file into Cascalog  
+[Chapter 11 Simplifying Datomic Syntax by Writing a DSL](https://github.com/juliangamble/clojure-recipes/tree/master/ch-11-DSL-simplifying-datomic-syntax)
+
+[Chapter 12 Reading the SASS DSL and Generating CSS with  Clojure Zippers](https://github.com/juliangamble/clojure-recipes/tree/master/ch-12-generating-css-with-zippers)
+
+[Chapter 13 Introduction to Cascalog](https://github.com/juliangamble/clojure-recipes/tree/master/ch-13-cascalog-introduction)
+
+[Chapter 14 Running Cascalog in Hadoop](https://github.com/juliangamble/clojure-recipes/tree/master/ch-14-cascalog-and-hadoop)
+
+[Chapter 15 Loading a data file into Cascalog](https://github.com/juliangamble/clojure-recipes/tree/master/ch-15-cascalog-loading-data-file)
+
 Chapter 16 Writing a data file out of Cascalog  
 Chapter 17 Cascalog and Structured Data  
 Chapter 18 Loading Custom Data Formats into Cascalog  
