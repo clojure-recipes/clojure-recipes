@@ -28,5 +28,5 @@ Ideally we just want to do something like this:
 
 `(create-schema :book {:title :string :author :string})`
 
-To use a relational database mindset, you can see that the essentials of the schema name, the ‘column name’ and ‘column type’ are there.
+To use a relational database mindset, you can see that the essentials of the *schema name*, the *column name* and *column type* are there.
 
