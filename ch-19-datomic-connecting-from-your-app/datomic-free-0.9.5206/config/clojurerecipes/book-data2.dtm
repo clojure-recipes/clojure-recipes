@@ -1,0 +1,10 @@
+[
+  {:db/id #db/id[:db.part/user -1000003], :borrow/title "Patterns of Enterprise Architecture", :borrow/borrower "John Smith"}
+  {:db/id #db/id[:db.part/user -1000004], :borrow/title "The Rails 3 Way", :borrow/borrower "Bob Brown"}
+  {:db/id #db/id[:db.part/user -1000005], :borrow/title "Patterns of Enterprise Architecture", :borrow/borrower "Dave Thompson"}
+]
+
+;TODO - why do we need to specify the ID's? Why can't they be 'auto numbering?'
+
+
+

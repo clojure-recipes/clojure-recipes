@@ -1,0 +1,9 @@
+[
+  {:db/id #db/id[:db.part/user -1000001], :book/title "Patterns of Enterprise Architecture", :book/author "Martin Fowler"}
+  {:db/id #db/id[:db.part/user -1000002], :book/title "The Rails 3 Way", :book/author "Obie Fernandez"}
+]
+
+;TODO - why do we need to specify the ID's? Why can't they be 'auto numbering?'
+
+
+

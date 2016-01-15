@@ -1,0 +1,18 @@
+[
+ ;; book
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :book/title
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/doc "A book's title"
+  :db.install/_attribute :db.part/db}
+
+ {:db/id #db/id[:db.part/db]
+  :db/ident :book/author
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/doc "A book's author"
+  :db.install/_attribute :db.part/db}
+]
+
