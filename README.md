@@ -43,7 +43,8 @@ This repository contains the code samples from the book Clojure Recipes.
 [Chapter 20 Getting Started with Storm](https://github.com/juliangamble/clojure-recipes/tree/master/ch-20-storm-getting-started)
 
 Chapter 21 Getting Started with JMS in Clojure  
-Chapter 22 Integrating Storm and JMS 
+Chapter 22 Integrating Storm and JMS
+
 Chapter 23 A CSV Reader  
 Chapter 24 Detecting Errors with a Log Monitoring Application  
 Chapter 25 Bundling Clojure as an Ant Plugin  
