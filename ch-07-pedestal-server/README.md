@@ -4,5 +4,8 @@ This is the code for Chapter 7 of Clojure Recipes.
 
 **Benefits**
 
-In this chapter you’ll get a simple Pedestal application working and come to understand the reasons why you’d choose this framework over another.
+Benefits include the following:
+
+* You’ll get a simple Pedestal application working.
+* You’ll come to understand the reasons to choose the Pedestal framework over another.
 

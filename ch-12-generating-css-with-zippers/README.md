@@ -4,5 +4,5 @@ This is the code for Chapter 12 of Clojure Recipes.
 
 **Benefits**
 
-The benefit of this is a richer understanding of how Zippers can be used in parsing a DSL.
+The benefit of this chapter is a richer understanding of how Zippers can be used in parsing a DSL. In the future you can use this to build your own DSL.
 

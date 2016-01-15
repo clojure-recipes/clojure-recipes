@@ -1,6 +1,6 @@
 **[Clojure Recipes](https://github.com/juliangamble/clojure-recipes) - Chapter 3 - Creating a REST Server in Compojure**
 
-This is the sample code for this chapter. 
+This is the code for Chapter 3 of Clojure Recipes. 
 
 **Benefits**
 

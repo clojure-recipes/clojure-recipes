@@ -4,7 +4,9 @@ This is the code for Chapter 11 of Clojure Recipes.
 
 **Benefits**
 
-In this chapter you learn how to write a DSL-reader and code-generator in Clojure. This will also aide you when writing Datomic syntax, which can be cumbersome. Imagine we wanted to create a new schema in Clojure for a library use case. A naive schema would have a schema for Book, with an Author field and a Title field. To represent this in Datomic, we’d write a schema like this:
+In this chapter you learn how to write a DSL-reader and code-generator in Clojure. This will also aide you when writing Datomic syntax, which can be cumbersome. 
+
+Imagine we wanted to create a new schema in Clojure for a library use case. A naive schema would have a schema for Book, with an Author field and a Title field. To represent this in Datomic, we’d write a schema like this:
 
     [
     ;; book
@@ -24,6 +26,7 @@ In this chapter you learn how to write a DSL-reader and code-generator in Clojur
     ]
 
 We understand that representing a table row concept in a key value store implementation drives some of the complexity here. But at the same time, for a reader who comes from a relational database background—there appears to be lots of repetition there.
+
 Ideally we just want to do something like this:
 
 `(create-schema :book {:title :string :author :string})`
