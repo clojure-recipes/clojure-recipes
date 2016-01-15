@@ -1,22 +1,19 @@
 package cascalogSentenceReader;
 import static java.lang.Character.isLowerCase;
-import java.io.BufferedReader; import java.io.IOException;
+import java.io.BufferedReader; 
+import java.io.IOException;
+
 public class SentenceReaderAlgorithm {
 
 	private boolean isNextCharTerminatorFollowedBySpaceAndNBS(BufferedReader br, char d) throws IOException {
-		// can't reuse code because of single mark method (need it to be // recursive)
 		br.mark(3);
-		// assumption that EOF already tested 
 		char a = ((char) br.read());
-		//if (a == '.') {
 		if (a == d) {
-			//if (a == '.' || a == '?') {
 			char b = ((char) br.read());
 			if (b == '\u0020') {// regular space
 				int cint = br.read();
 				char c = ((char) cint);
 				if (c == '\u00A0') { // non-breaking space
-				//br.reset();
 					return true; 
 				} else {
 					br.reset();
@@ -33,23 +30,12 @@ public class SentenceReaderAlgorithm {
 
 private boolean isNextCharTerminatorFollowedBySpace(BufferedReader br, char c)
 	throws IOException {
-// can't reuse code because of single mark method (need it to be // recursive)
 	br.mark(2);
-	// assumption that EOF already tested 
 	char a = ((char) br.read());
-	//if (a == '.') {
-	//if (a == '.' || a == '?') {
 	if (a == c) {
 		char b = ((char) br.read());
-		if (b == '\u0020') {// regular space
-		// int cint = br.read();
-		// char c = ((char) cint);
-		// if (c == '\u00A0') // non-breaking space
-			return true; // else {
-		// br.reset();
-
-		// return false;
-		// } 
+		if (b == '\u0020') {
+			return true; 
 		} else {
 			br.reset();
 			return false; 
@@ -65,7 +51,8 @@ private boolean isNextCharTerminator(BufferedReader br, char c) throws IOExcepti
 	isNextCharTerminatorFollowedBySpace(br, c);
 }
 
-public boolean isNextCharEOF(BufferedReader br) throws IOException { // flag the reset point
+public boolean isNextCharEOF(BufferedReader br) throws IOException { 
+	// flag the reset point
 	br.mark(1);
 	if (br.read() == -1) {
 		br.reset();
@@ -78,7 +65,6 @@ public boolean isNextCharEOF(BufferedReader br) throws IOException { // flag the
 
 private boolean isNextCharLowercase(BufferedReader br) throws IOException {
 	br.mark(1);
-//assumption that EOF already tested 
 	if (isLowerCase( ((char) br.read()))) {
 		br.reset();
 		return true; 
@@ -91,9 +77,7 @@ private boolean isNextCharLowercase(BufferedReader br) throws IOException {
 private boolean isNextTwoCharsLineFeedNewlineWithNoTrailingLowerCase( BufferedReader br) 
 	throws IOException {
 
-// can't reuse code because of single mark method (need it to be // recursive)
 	br.mark(3);
-// assumption that EOF already tested 
 	if (((char) br.read()) == '\r')
 		if (((char) br.read()) == '\n') 
 			if (!isNextCharLowercase(br))
@@ -112,12 +96,8 @@ private boolean isNextTwoCharsLineFeedNewlineWithNoTrailingLowerCase( BufferedRe
 	}
 }
 
-private boolean isNextCharNewlineWithNoTrailingLowerCase(BufferedReader br)
-throws IOException {
-// can't reuse code because of single mark method (need it to be // recursive)
+private boolean isNextCharNewlineWithNoTrailingLowerCase(BufferedReader br) throws IOException {
 	br.mark(2);
-// assumption that EOF already tested // 
-	//if (((char) br.read()) == '\r') 
 	if (((char) br.read()) == '\n')
 		if (!isNextCharLowercase(br)) 
 			return true;
@@ -129,17 +109,10 @@ throws IOException {
 		br.reset();
 		return false; 
 	}
-// else {
-// br.reset();
-
-// return false;
-// } 
 }
 
 private boolean isNextTwoCharsSpaceNBS(BufferedReader br) throws IOException {
 	br.mark(2);
-	//'\u0020' + '\u00A0'
-	// assumption that EOF already tested // if (((char) br.read()) == '\r') 
 	if (((char) br.read()) == '\u0020')
 		if (((char) br.read()) == '\u00A0') 
 			return true;
@@ -154,9 +127,7 @@ private boolean isNextTwoCharsSpaceNBS(BufferedReader br) throws IOException {
 }
 
 private boolean isNextTwoCharsLineFeedNewline(BufferedReader br) throws IOException {
-// can't reuse code because of single mark method (need it to be recursive)
 	br.mark(2);
-//assumption that EOF already tested 
 	if (((char) br.read()) == '\r')
 		if (((char) br.read()) == '\n') 
 			return true;
