@@ -42,12 +42,16 @@ This repository contains the code samples from the book Clojure Recipes.
 
 [Chapter 20 Getting Started with Storm](https://github.com/juliangamble/clojure-recipes/tree/master/ch-20-storm-getting-started)
 
-Chapter 21 Getting Started with JMS in Clojure  
-Chapter 22 Integrating Storm and JMS
+[Chapter 21 Getting Started with JMS in Clojure](https://github.com/juliangamble/clojure-recipes/tree/master/ch-21-jms-getting-started)
 
-Chapter 23 A CSV Reader  
-Chapter 24 Detecting Errors with a Log Monitoring Application  
-Chapter 25 Bundling Clojure as an Ant Plugin  
+[Chapter 22 Integrating Storm and JMS](https://github.com/juliangamble/clojure-recipes/tree/master/ch-22-storm-jms-integration)
+
+[Chapter 23 A CSV Reader](https://github.com/juliangamble/clojure-recipes/tree/master/ch-23-csv-reader)
+
+[Chapter 24 Detecting Errors with a Log Monitoring Application](https://github.com/juliangamble/clojure-recipes/tree/master/ch-24-error-detection-with-log-monitoring)
+
+[Chapter 25 Bundling Clojure as an Ant Plugin](https://github.com/juliangamble/clojure-recipes/tree/master/ch-25-ant-plugin-in-clojure)
+
 Chapter 26 Bundling Clojure as a Maven Plugin  
 Chapter 27 Integrating Clojure by Scripting Web Tests  
 Chapter 28 Monitoring Availability with a Website Status Checker  
