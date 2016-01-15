@@ -1,0 +1,6 @@
+<project name="Message Box Test" default="run-message-box" basedir="."> <target name="run-message-box" description="Use the Ant Task">
+<taskdef name="ExitMessageBox" classname="clojurerecipes.AntMessageBox" classpath="ant-lib-0.1.0-SNAPSHOT-standalone.jar"/>
+<ExitMessageBox />
+<echo message="Program continuing..."/> <echo message="Result: ${msgBoxResult}"/>
+</target> </project>
+
