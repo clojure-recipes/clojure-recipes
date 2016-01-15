@@ -3,7 +3,7 @@
   :uberjar-name "cascalog-load-file.jar"
   :repositories  {"conjars" "http://conjars.org/repo/"}
   :main cascalog-load-file.load-file
-  :dependencies [[org.clojure/clojure "1.7.0-RC1"]
+  :dependencies [[org.clojure/clojure "1.7.0"]
                  [cascading/cascading-hadoop2-mr1 "2.7.0" ]
                  [cascalog/cascalog-core "2.1.1"]
                  [cascalog/cascalog-more-taps "2.1.1"]]
