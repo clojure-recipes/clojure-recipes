@@ -32,11 +32,16 @@ This repository contains the code samples from the book Clojure Recipes.
 
 [Chapter 15 Loading a data file into Cascalog](https://github.com/juliangamble/clojure-recipes/tree/master/ch-15-cascalog-loading-data-file)
 
-Chapter 16 Writing a data file out of Cascalog  
-Chapter 17 Cascalog and Structured Data  
-Chapter 18 Loading Custom Data Formats into Cascalog  
-Chapter 19 Connecting to Datomic from Your Application  
-Chapter 20 Getting Started with Storm  
+[Chapter 16 Writing a data file out of Cascalog](https://github.com/juliangamble/clojure-recipes/tree/master/ch-16-cascalog-write-data-file)
+
+[Chapter 17 Cascalog and Structured Data](https://github.com/juliangamble/clojure-recipes/tree/master/ch-17-cascalog-structured-data)
+
+[Chapter 18 Loading Custom Data Formats into Cascalog](https://github.com/juliangamble/clojure-recipes/tree/master/ch-18-cascalog-loading-custom-data-formats)
+
+[Chapter 19 Connecting to Datomic from Your Application](https://github.com/juliangamble/clojure-recipes/tree/master/ch-19-datomic-connecting-from-your-app)
+
+[Chapter 20 Getting Started with Storm](https://github.com/juliangamble/clojure-recipes/tree/master/ch-20-storm-getting-started)
+
 Chapter 21 Getting Started with JMS in Clojure  
 Chapter 22 Integrating Storm and JMS 
 Chapter 23 A CSV Reader  
