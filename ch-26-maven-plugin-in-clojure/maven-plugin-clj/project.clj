@@ -1,6 +1,5 @@
 (defproject org.clojurerecipes/maven-plugin-clj "0.1.0-SNAPSHOT" 
-	:dependencies [;TODO:
-					[org.clojure/clojure "1.7.0"]
+	:dependencies [[org.clojure/clojure "1.7.0"]
 				   [org.apache.maven.plugins/maven-plugin-plugin "3.2"]
 				   [clj-time "0.5.1"]] 
 	:plugins [[lein-localrepo "0.5.2"]]
