@@ -4,7 +4,7 @@
             [ring.middleware.resource :refer [wrap-resource]]
             [ring.middleware.params :refer [wrap-params]]
             [ring.middleware.json 
-            :refer [wrap-json-body wrap-json-response]]
+             :refer [wrap-json-body wrap-json-response]]
             [ring.util.response :refer [response redirect]]))
 
 (defn respond-to-json [s]
@@ -15,10 +15,10 @@
 
 (defroutes app-routes
   (GET "/" [] 
-  	(redirect "/postjson.html"))
+    (redirect "/postjson.html"))
   (POST "/a" [s] (respond-to-json s))
   (not-found (str "no matching route found\n"
-  	"Try <a href='/postjson.html'>this</a>")))
+                  "Try <a href='/postjson.html'>this</a>")))
 
 (def app 
   (-> app-routes
