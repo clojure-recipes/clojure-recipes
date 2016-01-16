@@ -42,7 +42,7 @@
   [{{order-json "order"} :form-params}]
   (let [order (json/read-str order-json :key-fn keyword)
         {stock-code :stock-code price :price} order]
-        (println order)
+    (println order)
     (println 
      (str "An order has come in for: " stock-code " at: " price))) 
   {:status 204})
