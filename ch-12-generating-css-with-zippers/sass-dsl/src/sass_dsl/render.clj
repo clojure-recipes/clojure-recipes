@@ -9,9 +9,9 @@
          has-parent (common/get-parent loc)
          is-loc-last-element (common/is-last-element loc)
          is-loc-selector (common/has-no-colon loc)
-         prefix (if (not is-loc-selector) "  ")
+         prefix (if (not is-loc-selector) " ")
          suffix (if is-loc-selector 
-                  " {\n" 
+                  " {\n"
                   (if is-loc-last-element
                     ";\n}\n\n"
                     ";\n"))
