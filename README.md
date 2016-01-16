@@ -52,6 +52,8 @@ This repository contains the code samples from the book Clojure Recipes.
 
 [Chapter 25 Bundling Clojure as an Ant Plugin](https://github.com/juliangamble/clojure-recipes/tree/master/ch-25-ant-plugin-in-clojure)
 
-Chapter 26 Bundling Clojure as a Maven Plugin  
-Chapter 27 Integrating Clojure by Scripting Web Tests  
-Chapter 28 Monitoring Availability with a Website Status Checker  
+[Chapter 26 Bundling Clojure as a Maven Plugin](https://github.com/juliangamble/clojure-recipes/tree/master/ch-26-maven-plugin-in-clojure)
+
+[Chapter 27 Integrating Clojure by Scripting Web Tests](https://github.com/juliangamble/clojure-recipes/tree/master/ch-27-scripting-web-tests)
+
+[Chapter 28 Monitoring Availability with a Website Status Checker](https://github.com/juliangamble/clojure-recipes/tree/master/ch-28-monitor-availability-status-checker)
