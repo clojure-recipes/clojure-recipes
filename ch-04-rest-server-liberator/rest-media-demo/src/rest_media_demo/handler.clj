@@ -15,14 +15,14 @@
    "text/html"])
 
 (defmethod render-map-generic "application/json" [data context]
-  (json/write-str (conj (:links data) (:properties data) )))
+  (json/write-str (conj (:links data) (:properties data))))
 
 (defmethod render-map-generic "text/html" [data context]
   (html [:div
          [:h1 (-> data :class first)]
          [:dl
           (mapcat (fn [[key value]] [[:dt key] [:dd value]])
-               (:properties data))]]))
+                  (:properties data))]]))
 
 
 (defrecord Coffee [name price])
@@ -52,21 +52,21 @@
   :available-media-types ["text/html" "application/json"]
   :handle-ok (fn [_]
                {:properties 
-               	(nth coffees (Integer/parseInt id))
+                (nth coffees (Integer/parseInt id))
                 :links [{:rel ["self"] 
-                		 :href (str "/coffees/" id)}
+                         :href (str "/coffees/" id)}
                         {:rel ["listing"] 
                          :href "/coffees"}]}))
 
 (defroutes app-routes
   (OPTIONS "/" [] 
-  	{:headers {"Allow:" "GET, POST, DELETE, OPTIONS"}})
+    {:headers {"Allow:" "GET, POST, DELETE, OPTIONS"}})
   (ANY "/" [] index)
-  (ANY "/coffees"[] index)
+  (ANY "/coffees" [] index)
   (OPTIONS "/coffees/:id" [] 
-  	{:headers {"Allow:" "GET, OPTIONS"}})
+    {:headers {"Allow:" "GET, OPTIONS"}})
   (ANY "/coffees/:id" [id] 
-  	(coffee id))
+    (coffee id))
   (route/resources "/")
   (route/not-found "Not Found"))
 
