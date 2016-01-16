@@ -3,10 +3,10 @@ pom.xml
 /lib/
 /classes/
 /out/
-/out-adv/
-/resources/public/out/
-/scripts/
+/release/
 /target/
 .lein-deps-sum
 .lein-repl-history
 .lein-plugins/
+/out-adv/
+/resources/public/out/
